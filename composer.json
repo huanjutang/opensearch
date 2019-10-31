@@ -1,0 +1,23 @@
+{
+    "name": "huanjutang/opensearch",
+	"description": "Aliyun Open Search Service SDK for PHP",
+	"homepage": "https://www.aliyun.com/product/opensearch",
+	"type": "library",
+	"license": "MIT",
+    "authors": [
+        {
+            "name": "nilsir",
+            "homepage": "http://blog.nilsir.com"
+        }
+    ],
+    "version": "v3.2.1",
+    "require": {
+		"php": ">=7.1"
+	},
+	"minimum-stability": "stable",
+    "autoload": {
+        "files": [
+            "./OpenSearch/Autoloader/Autoloader.php"
+        ]
+    }
+}
